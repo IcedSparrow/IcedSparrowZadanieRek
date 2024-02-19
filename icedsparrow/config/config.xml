@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>icedsparrow</name>
+    <displayName><![CDATA[Dawid Wróbel]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Dawid Wróbel ZadanieRekrutacyjne IcedSparrow.]]></description>
+    <author><![CDATA[Dawid Wróbel]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <need_instance>0</need_instance>
+    <ps_versions_compliancy>
+        <min>1.7.0.0</min>
+        <max>1.8.9.9</max>
+    </ps_versions_compliancy>
+    <bootstrap>1</bootstrap>
+    <confirmUninstall>Are you sure you want to uninstall?</confirmUninstall>
+    <is_configurable>0</is_configurable>
+    <author_page><![CDATA[]]></author_page>
+    <author_uri><![CDATA[]]></author_uri>
+    <fields>
+        <field>
+            <type>textarea</type>
+            <label><![CDATA[HTML Content]]></label>
+            <name>ICEDSPARROW_CONTENT</name>
+            <size>400</size>
+            <required>1</required>
+        </field>
+    </fields>
+</module>
